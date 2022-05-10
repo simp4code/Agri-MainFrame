@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StockList"
+    android:orientation="vertical">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#669900">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/removelogo"
+            />
+        <TextView
+            android:fontFamily="monospace"
+            android:textColor="#fff"
+            android:textSize="19sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STORAGE"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:fillViewport="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/rv"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

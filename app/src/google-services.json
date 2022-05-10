@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "352880372859",
+    "project_id": "agriculture-juan",
+    "storage_bucket": "agriculture-juan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352880372859:android:35fd05193b6abda93546de",
+        "android_client_info": {
+          "package_name": "com.example.agrijuan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352880372859-0r1238qumanv744mveehl5fkq5s2lpag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN90iDVIU8uONcFuArTnkIXjJFmoXDFls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352880372859-0r1238qumanv744mveehl5fkq5s2lpag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

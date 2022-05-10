@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToDo">
+
+    <ImageView
+        android:id="@+id/lg"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/removelogo" />
+        <TextView
+            android:textColor="#fff"
+            android:background="#99cc00"
+            android:layout_below="@id/lg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tasks"
+            android:id="@+id/textview"
+            android:layout_marginTop="3dp"
+            android:textSize="24sp"
+            android:gravity="center"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerview"
+        android:layout_below="@id/textview"
+        android:nestedScrollingEnabled="true"
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/fab"
+        android:src="@drawable/addt"
+        android:layout_margin="30dp"/>
+
+</RelativeLayout>

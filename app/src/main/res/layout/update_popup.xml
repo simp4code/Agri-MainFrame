@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:background="#669900"
+        android:textColor="#fff"/>
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:fontFamily="monospace"/>
+    <EditText
+        android:id="@+id/pntxt"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantiy"
+
+        android:fontFamily="monospace"/>
+    <EditText
+        android:id="@+id/qttxt"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded"
+        android:layout_margin="10dp"/>
+    <TextView
+
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price"/>
+    <EditText
+        android:id="@+id/ptxt"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/updatebtn"
+        android:textColor="#fff"
+        android:backgroundTint="#334d00"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"/>
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_custom_calndar">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:background="#669900">
+    <ImageButton
+        android:id="@+id/previousBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back"/>
+    <TextView
+        android:id="@+id/current_d"
+         android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:text="Day today"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_weight="3"
+        />
+    <ImageButton
+        android:id="@+id/nextBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/next"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:background="#264d00">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Sun"
+            android:background="#264d00"
+            android:textColor="#fff"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Mon"
+            android:background="#264d00"
+            android:textColor="#fff"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tue"
+            android:background="#264d00"
+            android:textColor="#fff"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Wed"
+            android:background="#264d00"
+            android:textColor="#fff"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Thu"
+            android:background="#264d00"
+            android:textColor="#fff"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Fri"
+            android:background="#264d00"
+            android:textColor="#fff"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Sat"
+            android:background="#264d00"
+            android:textColor="#fff"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="7">
+
+    </GridView>
+
+
+
+
+</LinearLayout>

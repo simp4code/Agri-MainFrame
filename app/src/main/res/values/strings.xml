@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AgriJuan</string>
+    <string name="hyperlink">Learn more about Agriculture at \n<a href="https://www.agrifarming.in/agriculture-in-philippines-farming-major-crops">AgriFarming</a></string>
+</resources>
